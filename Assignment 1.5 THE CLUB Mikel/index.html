@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1.5 : THE CLUB Mikel</title>
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <h1>Assignment 1.5 THE CLUB Mikel</h1>
+    <p>VIP:</p>
+    <input type="checkbox" id="vip" value="vip" checked />
+    <button onclick="myFunction1(vip)" id="enterBtn">
+      Enter Moriska Paviljongen
+    </button>
+    <p>AGE:</p>
+
+    <input
+      type="number"
+      value="16"
+      id="age"
+      min="0"
+      onkeypress="return myFunction2 ( event )"
+      onchange="myFunction3( age )"
+    />
+
+    <button onclick="myFunction4( adult )" id="adult">Verify</button>
+  </body>
+</html>
